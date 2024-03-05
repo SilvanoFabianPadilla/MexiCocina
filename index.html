@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/MexiCocina.png">
+    <title>MexiCocina</title>
+    <meta name="description" content="Página web de recetas más destacadas y valiosos consejos de México">
+
+    <!-- Prefetch -->
+    <!-- <link rel="prefetch" href="nosotros.html" as="document"> -->
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">MexiCocina</h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Tutoriales</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Bienvenidos a MexiCocina: ¡El Rincón de los Sabores de México!</h2>
+            <p class="no-margin">Descubre sabiduría de los expertos con las recetas más destacadas y valiosos consejos.
+            </p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Recetas Destacadas</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" loading="lazy" src="img/tacos.webp" alt="Tacos al pastor" class="imagen">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tacos al Pastor</h4>
+                    <p>Sumérgete en el delicioso mundo de los tacos al pastor con nuestra receta paso a paso. Descubre
+                        cómo marinar la carne de cerdo, preparar la salsa de adobo perfecta y montar tus tacos con los
+                        ingredientes tradicionales. ¡Una explosión de sabores te espera!</p>
+                    <a href="tacos.html" class="boton boton--primario">Leer receta</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" loading="lazy" src="img/mole.webp" alt="Mole poblano" class="imagen">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Mole poblano</h4>
+                    <p>El mole poblano es uno de los platos más emblemáticos de la gastronomía mexicana, reconocido por
+                        su complejidad de sabores y su elaboración artesanal. Originario de Puebla, este platillo es una
+                        mezcla magistral de chiles secos, chocolate, especias y otros ingredientes, que se combinan para
+                        crear una salsa espesa y ligeramente dulce. </p>
+                    <a href="mole.html" class="boton boton--primario">Leer receta</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <img loading="lazy" loading="lazy" src="img/pozole.webp" alt="Pozole" class="imagen">
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Pozole</h4>
+                    <p>El pozole es un platillo emblemático de la gastronomía mexicana, venerado por su sabor robusto y
+                        su arraigada tradición en las celebraciones y festividades del país. Esta sopa consistente se
+                        prepara con maíz pozolero cocido en caldo de pollo o cerdo, sazonado con hojas de laurel y
+                        orégano, y se sirve caliente con carne de cerdo desmenuzada, lechuga, rábano, cebolla y limón
+                        para añadir al gusto. </p>
+                    <a href="Pozole.html" class="boton boton--primario">Leer receta</a>
+                </div>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Tutoriales</h3>
+            <ul class="consejos no-padding">
+                <li class="widget-consejo">
+                    <h4 class="no-margin">Decoración de Platos: Técnicas Creativas.</h4>
+                    <p class="widget-consejo__label">Precio: <span class="widget-consejo__info">$175.00</span></p>
+                    <p class="widget-consejo__label">Cupo: <span class="widget-consejo__info">10</span></p>
+                    <a href="cursos.html#decoracion" class="boton boton--secundario">Información</a>
+                </li>
+
+                <li class="widget-consejo">
+                    <h4 class="no-margin">Secretos de la Cocina Mexicana: Tostado y Molienda de Especias.</h4>
+                    <p class="widget-consejo__label">Precio: <span class="widget-consejo__info">$125.00</span></p>
+                    <p class="widget-consejo__label">Cupo: <span class="widget-consejo__info">25</span></p>
+                    <a href="cursos.html#secretos" class="boton boton--secundario">Información</a>
+                </li>
+
+                <li class="widget-consejo">
+                    <h4 class="no-margin">Taller de Panadería Mexicana.</h4>
+                    <p class="widget-consejo__label">Precio: <span class="widget-consejo__info">$100.00</span></p>
+                    <p class="widget-consejo__label">Cupo: <span class="widget-consejo__info">40</span></p>
+                    <a href="cursos.html#panaderia" class="boton boton--secundario">Información</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__nombre no-margin centrar-texto">MexiCocina</h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Tutoriales</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
